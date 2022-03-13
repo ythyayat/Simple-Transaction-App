@@ -1,0 +1,21 @@
+//auth
+export const LOGIN = 'LOGIN';
+export const SAVE_USER_DATA = 'SAVE_USER_DATA';
+export const CLEAR_USER_DATA = 'CLEAR_USER_DATA';
+export const REGISTER = 'REGISTER';
+export const SET_REGISTER_STATUS = 'SET_REGISTER_STATUS';
+export const SET_VALIDATION_CHECKED = 'SET_VALIDATION_CHECKED';
+
+//transaction
+export const GET_BALANCE = 'GET_BALANCE';
+export const SET_BALANCE = 'SET_BALANCE';
+export const GET_TRANSACTIONS = 'GET_TRANSACTIONS';
+export const SET_TRANSACTIONS = 'SET_TRANSACTIONS';
+export const GET_PAYEES = 'GET_PAYEES';
+export const SET_PAYEES = 'SET_PAYEES';
+export const MAKE_TRANSFER = 'MAKE_TRANSFER';
+export const SET_TRANSACTION_STATUS = 'SET_TRANSACTION_STATUS';
+
+//common
+export const SET_ERROR_MESSAGE = 'SET_ERROR_MESSAGE';
+export const SET_IS_LOADING = 'SET_IS_LOADING';
